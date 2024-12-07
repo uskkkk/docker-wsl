@@ -7,4 +7,6 @@
 
  2. docker 가 성능 향상, 기술적 제약 및 사용자 경험 개선 등의 이유로 WSL2 만 지원을 시작하기 때문에
     WSL 2 로 버전업을 하기 위해 BIOS로 진입 후 SVM MODE를 enable 해주고 docker 재설치 및 실행 하니 오류 해결 
+    
+ 3.  도커를 빌드할때 빈 이미지도 같이 빌드가 되는 현상이 있어서 build.gradle에 jar -> enabled 를 false 로 변경해주었다.
 ```
